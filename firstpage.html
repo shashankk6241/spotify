@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Playpen Sans', cursive;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 50px;
+            grid-gap: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .item {
+            background-color: violet;
+            border: 1px solid white;
+            border-radius: 15px;
+            padding: 160px 40px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #item1 {
+            background-image: url(1.jpeg);
+        }
+
+        #item2 {
+            background-image: url(2.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        #item3 {
+            background-image: url(3.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        #item4 {
+            background-image: url(4.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        #item5 {
+            background-image: url(5.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        #item6 {
+            background-image: url(6.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        #item7 {
+            background-image: url(7.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        #item8 {
+            background-image: url(8.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        #item9 {
+            background-image: url(9.jpeg);
+            background-position: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+        }
+
+        .btn {
+            background-color: rgba(255, 192, 203, 0);
+            border: none;
+            font-size: 30px;
+            font-family: 'Playpen Sans', cursive;
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: rgb(0 0 0 / 24%);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 30px;
+            font-family: 'Playpen Sans', cursive;
+            color: rgb(255 255 255);
+        }
+
+        #audioPlayer {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 align="center">Trending!</h2>
+    <div class="container">
+
+        <div class="item" id="item1"><input type="button" class="btn" value="Candy Shop"
+                onclick="playAudio('alisa-candy-shop.mp3')"></div>
+        <div class="item" id="item2"><input type="button" class="btn" value="Cocktail"
+                onclick="playAudio('alisa-rabbit-cocktail.mp3')"></div>
+        <div class="item" id="item3"><input type="button" class="btn" value="Sweet Elegence"
+                onclick="playAudio('arthur-vyncke-sweet-elegance-a-theme-for-minah.mp3')"></div>
+        <div class="item" id="item4"><input type="button" class="btn" value="Holiday"
+                onclick="playAudio('kodomoi-holiday.mp3')"></div>
+        <div class="item" id="item5"><input type="button" class="btn" value="Memory of Summer"
+                onclick="playAudio('kodomoi-memory-of-summer.mp3')"></div>
+        <div class="item" id="item6"><input type="button" class="btn" value="Sunny"
+                onclick="playAudio('kodomoi-sunny.mp3')"></div>
+        <div class="item" id="item7"><input type="button" class="btn" value="Snorkel"
+                onclick="playAudio('Snorkel Master 0.1 16bit.wav')"></div>
+        <div class="item" id="item8"><input type="button" class="btn" value="Snowball Fight"
+                onclick="playAudio('Snowball Fight!! Master -8lufs For SC YT.wav')"></div>
+        <div class="item" id="item9"><input type="button" class="btn" value="Song"
+                onclick="playAudio('audio/song1.mp3')"></div>
+        <audio controls id="audioPlayer">Your browser does not support the audio element.</audio>
+    </div>
+    <script src="scrripts.js"></script>
+</body>
+
+</html>

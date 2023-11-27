@@ -1,0 +1,256 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+#sp {
+    font-family: 'Playpen Sans', cursive;
+}
+
+div#spotify {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#menu {
+    background-color: rgb(0, 163, 0);
+    margin: 0px;
+    padding: 5px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 8% 74% auto;
+}
+
+.menu-anchor {
+    background-color: rgb(0, 163, 0);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+#search_bar {
+    align-items: center;
+}
+
+input#search_bar_ip {
+    margin-top: 3%;
+    width: 72%;
+    height: 36%;
+    border: 2px solid black;
+    padding-left: 23px;
+    border-radius: 30px;
+    background-color: rgb(36 36 36);
+    color: white;
+}
+
+input#search_bar_ip:hover {
+    margin-top: 3%;
+    width: 72%;
+    height: 36%;
+    border: 2px solid black;
+    padding-left: 23px;
+    border-radius: 30px;
+    background-color: rgb(38 38 38 / 71%);
+    color: white;
+}
+
+#ps {
+    /* border: 2px solid white; */
+    /* padding: 20px 20px; */
+    padding-top: 37px;
+    padding-left: 90px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+#logo-img-div {
+    background-image: url(Spotify_App_Logo.svg.png);
+    background-size: 79px 76px;
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 78px;
+    border: 2px solid black;
+    border-radius: 58px;
+    margin-top: 7px;
+    margin-left: 12px;
+    height: 75px;
+}
+
+.menu-anchor:hover {
+    background-color: green;
+    color: white;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 17% auto;
+}
+
+.left-menu {
+    margin-top: 3px;
+    width: 14rem;
+    display: grid;
+}
+
+#home_icon {
+    height: 24px;
+    width: 24px;
+}
+
+#settings_icon {
+    height: 24px;
+    width: 24px;
+}
+
+#search_icon {
+    height: 24px;
+    width: 24px;
+    background-image: url(search_icon.png);
+    background-color: #00a300;
+    background-size: cover;
+    border: none;
+    position: relative;
+    top: 6px;
+}
+
+#search_icon:hover {
+    height: 24px;
+    width: 24px;
+    background-image: url(search_icon.png);
+    background-color: #363636;
+    background-size: cover;
+    border: none;
+    position: relative;
+    top: 11px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.left-menu-item-1 {
+    align-items: center;
+    padding-top: 27px;
+    font-size: 22px;
+}
+
+#right-menu {
+    margin-top: 9px;
+    color: white;
+    border: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+#left-menu-item-1 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.140);
+    width: 13rem;
+    height: 7rem;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+#left-menu-item-2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(0, 163, 0);
+    width: 13rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding-top: 80px;
+    font-family: 'Playpen Sans', cursive;
+    padding-bottom: 30px;
+}
+
+#left-menu-item-2:hover {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.140);
+    width: 13rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding-top: 80px;
+}
+
+#left-menu-item-3 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(0, 163, 0);
+    width: 13rem;
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+#left-menu-item-3:hover {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.140);
+    width: 13rem;
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+#a1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 2px;
+}
+
+#a2 {
+    margin-top: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#a1:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.140);
+    /* border-left: 2px solid rgba(255, 255, 255, 0.140); */
+    /* border-right: 2px solid rgba(255, 255, 255, 0.140); */
+    border-radius: 15px;
+}
+
+#a2:hover {
+    border-top: 2px solid rgba(255, 255, 255, 0.140);
+    /* border-left: 2px solid rgba(255, 255, 255, 0.140); */
+    /* border-right: 2px solid rgba(255, 255, 255, 0.140); */
+    border-radius: 15px;
+}
